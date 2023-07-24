@@ -464,7 +464,7 @@ body {
 }
 //Menu toggle 
 #menuToggle {
-    display: inline-block;
+    display: none;
     position: relative;
     top: 50px;
     left: 50px;
@@ -557,5 +557,9 @@ body {
                 font-size: 22px;
             }
         }
+    }
+    @media (max-width:$xs-max) {
+    display: inline-block;
+        
     }
 }
