@@ -470,9 +470,12 @@ body {
 .duan{
     padding: 40px 0 !important;
     margin: 40px 0 !important;
-    .lalala{
-        &:last-child{
-            margin: 0;
+    @media (max-width: $xs-max) {
+        
+        .lalala{
+            &:last-child{
+                margin: 0;
+            }
         }
     }
     .duan_item{
