@@ -165,7 +165,6 @@ body {
             width: 100%;
             overflow: none !important;
             @media (max-width:$sm-max) {
-                padding: 20px 0px;
                 height: auto !important;
             }
         }
@@ -257,18 +256,18 @@ body {
 
             h1 {
                 font-weight: 700;
-                font-size: 42px;
+                font-size: 32px;
             }
 
             span {
-                font-size: 32px;
+                font-size: 18px;
                 font-weight: 500;
             }
         }
     }
     @media (max-width:$xs-max) {
         .banner_list{
-            height: 400px;
+            height: 200px;
             .banner_item{
                 height: 150px;
                 box-shadow: none;
@@ -458,11 +457,15 @@ body {
             }
         }
     }
+    @media (max-width: $xs-max) {
+        padding: 0px;
+    }
 }
 .title2{
+    @media (max-width: $xs-max) {
+        margin: 0 !important;
     span{
 
-        @media (max-width: $xs-max) {
             font-size: 16px;
         }
     }

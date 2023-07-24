@@ -151,7 +151,6 @@ body {
 }
 @media (max-width: 991px) {
   .slide_banner .group_img .slick-list {
-    padding: 20px 0px;
     height: auto !important;
   }
 }
@@ -229,15 +228,15 @@ body {
 }
 .banner_sub .banner_list .banner_item h1 {
   font-weight: 700;
-  font-size: 42px;
+  font-size: 32px;
 }
 .banner_sub .banner_list .banner_item span {
-  font-size: 32px;
+  font-size: 18px;
   font-weight: 500;
 }
 @media (max-width: 767px) {
   .banner_sub .banner_list {
-    height: 400px;
+    height: 200px;
   }
   .banner_sub .banner_list .banner_item {
     height: 150px;
@@ -394,8 +393,16 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  .tt {
+    padding: 0px;
+  }
+}
 
 @media (max-width: 767px) {
+  .title2 {
+    margin: 0 !important;
+  }
   .title2 span {
     font-size: 16px;
   }
