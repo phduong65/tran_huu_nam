@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=1300"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/slick/slick.css">
+    <link rel="stylesheet" href="./asset/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/style2.css">
+    <title>TRẦN HỮU NAM</title>
+</head>
+<body>
+    
+<header class="header_bar">
+    
+    <div class="top_header">
+        <div class="contact conatiner">
+            <div class="location ic_contact">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg>
+                <marquee class="location_text">
+                    181/12, Dương Văn Dương, Tân Quý, Quận Tân Phú
+                </marquee>
+            </div>
+            
+            <div class="phone">
+                <div class="phone_ic ic_contact">
+                    <div class="phone_number">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5z" />
+                        </svg>
+                        <span>0916.848.359</span>
+
+                        <span>( 0974.208.453 )</span>
+                    </div>
+                </div>
+                <div class="web_ic ic_contact">
+                    <?xml version="1.0" ?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg fill="currentColor" width="16" height="16" viewBox="0 0 512 512" id="_x30_1" version="1.1"
+                        xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M418.275,146h-46.667  c-5.365-22.513-12.324-43.213-20.587-61.514c15.786,8.776,30.449,19.797,43.572,32.921C403.463,126.277,411.367,135.854,418.275,146  z M452,256c0,17.108-2.191,33.877-6.414,50h-64.034c1.601-16.172,2.448-32.887,2.448-50s-0.847-33.828-2.448-50h64.034  C449.809,222.123,452,238.892,452,256z M256,452c-5.2,0-21.048-10.221-36.844-41.813c-6.543-13.087-12.158-27.994-16.752-44.187  h107.191c-4.594,16.192-10.208,31.1-16.752,44.187C277.048,441.779,261.2,452,256,452z M190.813,306  c-1.847-16.247-2.813-33.029-2.813-50s0.966-33.753,2.813-50h130.374c1.847,16.247,2.813,33.029,2.813,50s-0.966,33.753-2.813,50  H190.813z M60,256c0-17.108,2.191-33.877,6.414-50h64.034c-1.601,16.172-2.448,32.887-2.448,50s0.847,33.828,2.448,50H66.414  C62.191,289.877,60,273.108,60,256z M256,60c5.2,0,21.048,10.221,36.844,41.813c6.543,13.087,12.158,27.994,16.752,44.187H202.404  c4.594-16.192,10.208-31.1,16.752-44.187C234.952,70.221,250.8,60,256,60z M160.979,84.486c-8.264,18.301-15.222,39-20.587,61.514  H93.725c6.909-10.146,14.812-19.723,23.682-28.593C130.531,104.283,145.193,93.262,160.979,84.486z M93.725,366h46.667  c5.365,22.513,12.324,43.213,20.587,61.514c-15.786-8.776-30.449-19.797-43.572-32.921C108.537,385.723,100.633,376.146,93.725,366z   M351.021,427.514c8.264-18.301,15.222-39,20.587-61.514h46.667c-6.909,10.146-14.812,19.723-23.682,28.593  C381.469,407.717,366.807,418.738,351.021,427.514z" />
+                    </svg>
+                    <span>Tên Trang web</span>
+                </div>
+            </div>
+        </div>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span class="child-1"></span>
+                <span class="child-2"></span>
+                <span class="child-3"></span>
+                <ul id="menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Info</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="https://erikterwan.com/" target="_blank">
+                        <li>Show me more</li>
+                    </a>
+                </ul>
+        </div>
+        <div class="container">
+            <nav class="nav_bar row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="logo_nav">
+                        <img src="./asset/image/logo.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-12">
+
+                    <ul class="control_nav">
+                        <li class="item_nav active">
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li class="item_nav">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item_nav">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Công trình
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item_nav">
+                            <a href="">Dịch vụ</a>
+                        </li>
+                        <li class="item_nav">
+                            <a href="">Giới thiệu</a>
+                        </li>
+                        <li class="item_nav">
+                            <a href="">Tin tức</a>
+                        </li>
+                        <li class="item_nav">
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
+<section class="slide_banner">
+    <div class="group_img">
+        <img src="./asset/image/exterior-modern-residential-building.jpg" alt="" srcset="">
+        <img src="./asset/image/empty-closed-door.jpg" alt="" srcset="">
+        <img src="./asset/image/empty-closed-door.jpg" alt="" srcset="">
+        <img src="./asset/image/andrey-haimin-q2Fyzn-KJOQ-unsplash.jpg" alt="" srcset="">
+    </div>
+</section>
+<section class="banner_sub">
+    <div class="banner_list container">
+        <div class="banner_item">
+            <div class="text_banner">
+                <h1>Nhôm xingfa</h1>
+                <span>Cao Cấp</span>
+            </div>
+            <div class="img_banner">
+                <img src="./asset/image/pngegg (1).png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="banner_item">
+            <div class="text_banner">
+                <h1>Sắt thép</h1>
+                <span>Cao Cấp</span>
+            </div>
+            <div class="img_banner">
+                <img src="./asset/image/pngegg (2).png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="banner_item">
+            <div class="text_banner">
+                <h1>Sắt thép</h1>
+                <span>Cao Cấp</span>
+            </div>
+            <div class="img_banner">
+                <img src="./asset/image/pngegg (2).png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="introduce">
+    <div class="container">
+        <h3 class="text_label text-uppercase">
+            Giới Thiệu
+        </h3>
+        <div class="row introduce_page">
+            <div class="col-md-5">
+                <ul class="list_introduce">
+                    <li class="introduce_item">
+                        Mô tả 1 : CƠ KHÍ TRẦN HỮU NAM
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00FF00"
+                            class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path
+                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                        </svg>
+                    </li>
+                    <li class="introduce_item">
+                        Mô tả 2 : CƠ KHÍ TRẦN HỮU NAM
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00FF00"
+                            class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path
+                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                        </svg>
+                    </li>
+                    <li class="introduce_item">
+                        Mô tả 3 : CƠ KHÍ TRẦN HỮU NAM
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00FF00"
+                            class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path
+                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                        </svg>
+                    </li>
+                    <li class="introduce_item">
+                        Mô tả 4 : CƠ KHÍ TRẦN HỮU NAM
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00FF00"
+                            class="bi bi-check-lg" viewBox="0 0 16 16">
+                            <path
+                                d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+                        </svg>
+                    </li>
+                    <div class="btn btn_loadmr mt-4 px-3">
+                        <div class="btn_load">
+                            <span>Xem chi tiết</span>
+                            <img src="./asset/image/right-arrow.png" alt="">
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" />
+                            <div class="overlay"></div>
+
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layout"></div>
+
+</section>
+<div class="section_sp pt-4 pb-4">
+    <div class="container">
+        <div class="title2"><span>SẢN PHẨM NỔI BẬT</span></div>
+        <div class="row">
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-melamine" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        nhôm kính xingfa </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-go-mdf" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        nhôm kính xingfa </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-hdf" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        nhôm kính xingfa </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-phu-venner-sunwha" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        nhôm kính xingfa </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pt-3 text-center readmore">
+    <a href="san-pham-noi-bat">Xem thêm</a>
+</div>
+
+<div class="div my-4 py-4" style="background-color: #f2f2f2">
+    <div class="section_sp pt-4 pb-4 ">
+        <div class="container">
+            <div class="title2"><span>NHÔM XINGFA</span></div>
+            <div class="row">
+                <div class="col-md-3 col-sm-12 p-3">
+                    <a href="van-melamine" class="item_sp">
+                        <div class="img_sp">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        </div>
+                        <div class="content_sp">
+                            nhôm kính xingfa </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-12 p-3">
+                    <a href="van-go-mdf" class="item_sp">
+                        <div class="img_sp">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        </div>
+                        <div class="content_sp">
+                            nhôm kính xingfa </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-12 p-3">
+                    <a href="van-hdf" class="item_sp">
+                        <div class="img_sp">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        </div>
+                        <div class="content_sp">
+                            nhôm kính xingfa </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-12 p-3">
+                    <a href="van-phu-venner-sunwha" class="item_sp">
+                        <div class="img_sp">
+                            <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        </div>
+                        <div class="content_sp">
+                            nhôm kính xingfa </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pt-3 text-center readmore">
+        <a href="san-pham-noi-bat">Xem thêm</a>
+    </div>
+</div>
+
+<div class="section_sp pt-4 pb-4">
+    <div class="container">
+        <div class="title2"><span>SẮT THÉP</span></div>
+        <div class="row">
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-melamine" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        Sắt thép 1 </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-go-mdf" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        Sắt thép 2 </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-hdf" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        Sắt thép 3 </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-12 p-3">
+                <a href="van-phu-venner-sunwha" class="item_sp">
+                    <div class="img_sp">
+                        <img src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                    </div>
+                    <div class="content_sp">
+                        Sắt thép 4</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pt-3 text-center readmore">
+    <a href="san-pham-noi-bat">Xem thêm</a>
+</div>
+
+
+
+<div class="duan">
+    <div class="title2 titlec">
+        DỰ ÁN
+    </div>
+    <div class="duan_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 lalala">
+                    <div class="duan_item">
+                        <img class="w-100" src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        <p>DỰ ÁN 1</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="duan_item mb-4">
+                        <img class="w-100" src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        <p>DỰ ÁN 1</p>
+                    </div>
+                    <div class="duan_item">
+                        <img class="w-100" src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        <p>DỰ ÁN 1</p>
+                    </div>
+                </div>
+                <div class="col-md-4 lalala">
+                    <div class="duan_item">
+                        <img class="w-100" src="./asset/image/cua-nhom-kinh.jpg" alt="">
+                        <p>DỰ ÁN 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="banner_index">
+    <img style="max-height: 400px; width: 100%; object-fit: cover;" src="./asset/image/Banner (1).png" alt="">
+</div>
+
+<div class="tt">
+    <div class="container tt_inner">
+        <div class="title2"><span>TIN TỨC</span></div>
+        <div class="tt_main">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12 pl-2 pr-2 mb-3 fffa">
+                    <div class="tt_item">
+                        <div class="tt_item_front">
+                            <a class="tt_item_img" href="van-chuyen-van-go-toan-quoc-dam-bao-chat-luong-va-do-tin-cay">
+                                <img src="./asset/image/slider3-0x0.jpg" alt="">
+                            </a>
+                            <a href="van-chuyen-van-go-toan-quoc-dam-bao-chat-luong-va-do-tin-cay"
+                                class="tt_item_des text-split">
+                                Sau thời gian gặp khó, gần đây đã xuất hiện nhiều điểm sáng cho ngành thép. Điều này
+                                mang đến kỳ vọng, từ nay đến cuối năm, thị trường vật liệu xây dựng nói riêng sẽ có lực
+                                đẩy mới.
+                            </a>
+                        </div>
+                        <div class="tt_item_back">
+                            <div class="name text-spit-1">
+                                VÌ SAO NGÀNH THÉP ĐƯỢC KỲ VỌNG LÀ ĐIỂM SÁNG TRÊN THỊ TRƯỜNG VẬT LIỆU XÂY DỰNG NỬA CUỐI
+                                NĂM 2023? </div>
+                        </div>
+                    </div>
+
+                    <div class="tt_item">
+                        <div class="tt_item_front">
+                            <a class="tt_item_img" href="don-vi-nao-cung-cap-van-go-uy-tin-tai-mien-nam">
+                                <img src="./asset/image/slider3-0x0.jpg" alt="">
+                            </a>
+                            <a href="don-vi-nao-cung-cap-van-go-uy-tin-tai-mien-nam" class="tt_item_des text-split">
+                                Sau thời gian gặp khó, gần đây đã xuất hiện nhiều điểm sáng cho ngành thép. Điều này
+                                mang đến kỳ vọng, từ nay đến cuối năm, thị trường vật liệu xây dựng nói riêng sẽ có lực
+                                đẩy mới.</a>
+                        </div>
+                        <div class="tt_item_back">
+                            <div class="name text-spit-1">
+                                VÌ SAO NGÀNH THÉP ĐƯỢC KỲ VỌNG LÀ ĐIỂM SÁNG TRÊN THỊ TRƯỜNG VẬT LIỆU XÂY DỰNG NỬA CUỐI
+                                NĂM 2023?</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-12 pl-2 pr-2 mb-3">
+                    <div class="tt_right d-none-1024">
+                        <img src="./asset/image/slider3-0x0.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="boxfooter_container " id="background-khachhang">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 pl-2 pr-2 mb-3">
+                    <div class="footer_name">CÔNG TY TRẦN HỮU NAM</div>
+                    <div class="des_footer">
+                        <p><strong><u>Thông tin liên hệ:</u></strong><br>
+                            Số điện thoại:&nbsp;<strong>0916.8484.359</strong><br>
+                            Email:<strong> huunam@gmail.com</strong><br>
+                            Website: <strong>huunam.vn</strong><br>
+                            Địa chỉ:&nbsp;<strong>181/12 Dương Văn Dương, Tân Quý, Tân Phú</strong></p>
+                    </div>
+                    <form class="form-news validation-contact" novalidate="" method="post" action=""
+                        enctype="multipart/form-data">
+                        <div class="input-contact">
+                            <input type="email" class="form-control" id="email-newsletter" name="email-newsletter"
+                                placeholder="Email..." required="">
+                        </div>
+                        <input type="submit" class="btn btn-danger mt-3" name="submit-newsletter" value="Gửi ngay">
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer_name">Địa chỉ trụ sở và chi nhánh</div>
+                    <div class="dmcd">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2398364140026!2d106.61507747469746!3d10.792934189356806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c07e345b551%3A0x52484f8bcacb8dbe!2zMTgxIETGsMahbmcgVsSDbiBExrDGoW5nLCBUw6JuIFF1w70sIFTDom4gUGjDuiwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1690000581271!5m2!1sen!2s"
+                            width="340" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer_name">Về chúng tôi</div>
+                    <div class="dmcdd">
+                        <ul>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách mua hàng</li>
+                            <li>Chính sách Bảo hành</li>
+                            <li>Chính sách tuyển dụng</li>
+                        </ul>
+                        <div class="mama mt-3">
+                            Theo dõi chúng tôi:
+                            <div class="aads mt-4">
+                                <img src="./asset/image/c1.png" alt="">
+                                <img src="./asset/image/c2.png" alt="">
+                                <img src="./asset/image/c3.png" alt="">
+                                <img src="./asset/image/c4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxfooter_bottom">
+            <div class="container d-flex justify-content-between">
+                <div>
+                    © 2023 huunam.com All rights reserved. Design by sotagroup.vn
+                </div>
+                <div>Online: 3 | Hôm nay: 15 | Tổng: 12931</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./asset/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./asset/js/app.js"></script>
+</body>
+
+</html>
