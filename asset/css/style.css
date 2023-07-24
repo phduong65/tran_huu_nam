@@ -159,7 +159,7 @@ body {
   height: 600px;
 }
 .slide_banner .group_img .slick-slide img {
-  height: 600px;
+  height: 400px;
 }
 .slide_banner .group_img .slick-dots li button {
   font-size: 0;
@@ -191,7 +191,7 @@ body {
 }
 .banner_sub .banner_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
@@ -201,8 +201,7 @@ body {
 .banner_sub .banner_list .slick-list {
   width: 100%;
   overflow: unset;
-  margin: 20px -27px;
-  padding-bottom: 120px;
+  margin: 120px -27px;
 }
 .banner_sub .banner_list .banner_item {
   height: 240px;
@@ -242,6 +241,7 @@ body {
   }
   .banner_sub .banner_list .banner_item {
     height: 150px;
+    box-shadow: none;
   }
   .banner_sub .banner_list .banner_item .img_banner {
     position: relative;

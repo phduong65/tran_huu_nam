@@ -1,6 +1,8 @@
 $(".group_img").slick({
   infinite: true,
   speed: 300,
+  autoplay: true,
+  autoplaySpeed: 2000,
   slidesToShow: 1,
   adaptiveHeight: true,
   swipeToSlide: true,
@@ -19,19 +21,22 @@ $(".group_img").slick({
   ],
 });
 $(".banner_list").slick({
-  arrows: false,
   infinite: true,
+  slidesToScroll: 3,
   speed: 300,
+  arrows: false,
   slidesToShow: 2,
-  margin: 20,
   adaptiveHeight: true,
   swipeToSlide: true,
+  autoplay: true,
+  autoplaySpeed: 1500,
   responsive: [
     {
       breakpoint: 768,
       settings: {
-        centerMode: true,
         slidesToShow: 1,
+  adaptiveHeight: true,
+  swipeToSlide: true,
       },
     },
     {
