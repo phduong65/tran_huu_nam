@@ -6,7 +6,8 @@
         {
             "label": "run sass",
             "type": "shell",
-            "command": "sass asset/sass/style.scss asset/css/style.css --watch"
+            "command": "sass asset/sass/style.scss asset/css/style.css --watch",
+            "problemMatcher": []
         }
     ]
 }
