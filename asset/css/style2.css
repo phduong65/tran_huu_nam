@@ -90,7 +90,8 @@ a{
 }
 
 .readmore a:hover {
-    background: #09a4c7;
+    background: #ea580c;
+    color: white;
 }
 
 .readmore a {

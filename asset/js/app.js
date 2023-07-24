@@ -93,3 +93,20 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
 });
+
+
+// Scroll Auto Dự Án
+(function($) {
+	$(function() { //on DOM ready
+		$(".list_plan").simplyScroll({
+			customClass: 'vert',
+            orientation: 'vertical',
+            // orientation: 'horizontal',
+            auto: true,
+            manualMode: 'auto',
+            pauseOnHover: 1,
+            speed: 5,
+            loop: 0
+		});
+	});
+})(jQuery);
